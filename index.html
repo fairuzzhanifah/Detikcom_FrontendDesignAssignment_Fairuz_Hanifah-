@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DetikHealth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <section class="header">
+        <div class="navbar">
+            <nav>
+                <div class="logo">
+                  <a href="#"> <img src="img/navbar-brand.svg" alt=""></a> 
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Tentang Acara</a></li>
+                        <li><a href="#galeri">Galeri</a></li>
+                        <li><a href="#berita">Berita</a></li>
+                        <li><a href="https://event.detik.com/" class="btn-rounded-full bg-primary-gradient">Registrasi</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+      
+    </section>
+   
+  
+    <section class="home" id="home">
+        <div class="logo-event">
+            <img src="img/logo-event 2.svg" alt="">
+        </div>
+        <a href="#about" class="btn">TENTANG ACARA</a>
+    </section>
+
+    <section class="about" id="about">
+             <div class="container">
+                <div class="card-1">
+                    <div class="card">
+                        <div class="thumb">
+                            <img src="img/map 1.png" alt="">
+                            <h1>10K FUN RUN</h1>
+                            <p>Dimulai pukul 6 pagi, nikmati pemandangan kota di pagi hari dimulai dari Bundaran HI hingga Patung Pemuda Membangun di Senayan lalu kembali lagi ke Bundaran HI!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container1">
+                    <div class="card-2">
+                        <div class="thumb">
+                            <!-- <img src="img/map 1.png" alt=""> -->
+                            <h1>GRATIS DAN BERHADIAH</h1>
+                            <p>Pendaftaran gratis! Ajak keluarga anda dan menangkan hadiah total puluhan juta rupiah doorprize menarik!</p>
+                        </div>
+                    </div>
+
+                    <div class="card-2">
+                        <div class="thumb">
+                            <h1>50+ TENANT BAZZAR</h1>
+                            <p>Dapatkan promo menarik pada booth-booth tenant bazzar Sudirman Run 2023 mulai dari F&B hingga fashion</p>
+                        </div>
+                    </div>
+                    <div class="card-3">
+                            <div class="thumb-1">
+                                <img src="img/map 2.png" alt="">
+                                <span>
+                                    <h1>SPECIAL PERFORMANCE</h1>
+                                    <p>Saksikan penampilan dari RAN, Ayu Ting Ting, Diskoria, serta hiburan lainnya!</p>
+                                </span>
+                                
+                            </div>
+                    </div>
+                </div>
+                <a href="#about" class="button">DAFTAR SEKARANG</a>
+    </section>
+   
+    <section class="sponsor" id="sponsor">
+        <div class="logos">
+             <h1>DI DUKUNG OLEH</h1> 
+            <div class="logos-slide">
+             
+              <img src="img/sponsor1.png" />
+              <img src="img/sponsor2.png" />
+              <img src="img/sponsor3.png" />
+              <img src="img/sponsor4.png" />
+              <img src="img/sponsor4.png" />
+              <img src="img/sponsor5.png" />
+              <img src="img/sponsor6.png" />
+              <img src="img/sponsor7.png" />
+              <img src="img/sponsor8.png" />
+            </div>
+    </section>
+
+    <section class="galeri" id="galeri">
+        <div class="container-galeri">
+          <h1>GALERI SUDIRMAN RUN</h1>
+          <img src="img/galeri1 (1).png" alt="Gambar1" id="preview-img">
+  
+          <div class="galleries">
+            <img src="img/galeri1 (1).png" onclick="imgPreview(this.src)"alt="">
+            <img src="img/galeri1 (2).png"onclick="imgPreview(this.src)" alt="">
+            <img src="img/galeri1 (3).png"onclick="imgPreview(this.src)" alt="">
+            <img src="img/galeri1 (4).png"onclick="imgPreview(this.src)" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="berita" id="berita">
+        <div class="berita-box">
+            <h1>ARTIKEL TERKAIT</h1>
+            <div class="post-filter container">
+              <span class="filter-item active-filter" data-filter="artikel">Artikel</span>
+              <span class="filter-item" data-filter="foto">Foto</span>
+              <span class="filter-item " data-filter="video">Video</span>
+            </div>
+            <div class="post-container">
+            
+              <!-- post-box1 -->
+              <div class="post-box">
+                <img src="img/post (6).png" alt="" class="post-img">
+                <div class="post-title">
+                  <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
+                    Sukses Finish Marathon di Jakarta, Osha Penyandang Autisme Beberkan Prosesnya
+                  </a>
+                  <p>Sabtu, 25 Nov 2023 20:00 WIB</p>
+                </div>
+                
+              </div>
+              <!-- post-box2 -->
+              <div class="post-box">
+                <img src="img/post (5).png" alt="" class="post-img">
+                <div class="post-title">
+                  <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
+                    Edukasi Lingkungan Hidup Bonus Sehat di 'Misi Lestari 2023: See Nature
+                  </a>
+                  <p>Sabtu, 25 Nov 2023 20:00 WIB</p>
+                </div>
+                
+              </div>
+               <!-- post-box3 -->
+               <div class="post-box">
+                <img src="img/post (4).png" alt="" class="post-img">
+                <div class="post-title">
+                  <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
+                    Gokil! Puluhan Ribu Orang Ramaikan Pertamina Eco RunFest 2023
+                  </a>
+                  <p>Sabtu, 25 Nov 2023 20:00 WIB</p>
+                </div>
+              </div>
+               <!-- post-box4-->
+               <div class="post-box">
+                <img src="img/post (3).png" alt="" class="post-img">
+                <div class="post-title">
+                  <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
+                    Kelar Lari di CT Arsa Charity Fun Run, 'Recharge' Energi Nonton Maliq & D'essentials
+                  </a>
+                  <p>Sabtu, 25 Nov 2023 20:00 WIB</p>
+                </div>
+             
+              </div>
+               <!-- post-box5 -->
+               <div class="post-box">
+                <img src="img/post (2).png" alt="" class="post-img">
+                <div class="post-title">
+                  <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
+                    CT Arsa Charity Fun Run 2023 Bertabur Emas
+                  </a>
+                  <p>Sabtu, 25 Nov 2023 20:00 WIB</p>
+                </div>
+              </div>
+               <!-- post-box6 -->
+               <div class="post-box">
+                <img src="img/post (1).png" alt="" class="post-img">
+                <div class="post-title">
+                  <a href="https://health.detik.com/kebugaran/d-7056398/sukses-finish-marathon-di-jakarta-osha-penyandang-autisme-beberkan-prosesnya">
+                    BTN Jakarta Run 2023 Dorong dan Geliatkan Sport Tourism Jakarta
+                  </a>
+                  <p>Sabtu, 25 Nov 2023 20:00 WIB</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <a href="https://www.detik.com/search/searchall?query=fun+run&siteid=2" class="button1">LIHAT LEBIH BANYAK</a>
+      </section>
+
+      <section class="footer">
+        <div class="box">
+            <img src="img/Mask group.png" alt="">
+            <div class="group-footer">
+                <p>Event olahraga lari sejauh 10 kilometer yang diselenggarakan oleh Detikhealth secara gratis untuk masyarakat Indonesia. Ajak keluarga dan kerabat anda untuk ikut keseruan Sudirman Run 2023 lalu menangkan hadiah utama serta doorprize dengan total puluhan juta rupiah</p>
+                <div class="sosmed">
+                    <h1>Connect With Us</h1>
+                    <img src="img/circle.png" alt="">
+                </div>
+            </div>
+            <hr>
+            <p>Copyright @ 2023 detikcom. All right reserved</p>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
